@@ -1,4 +1,4 @@
-package com.Nikitiuk.HW1;
+package com.pb.Nikitiuk.HW1;
 
 public class HelloWorld {   
      public static void main(String[] args ){
