@@ -1,10 +1,10 @@
 package com.pb.Nikitiuk.HW2;
 
-public class Calculator { public static void main(String[] args ) {
-  int y = 8;
-  int x = 1+y;
+import java.util.Scanner;
 
- System.out.println("x=" + x);
- System.out.println("x=" + x);
+public class Calculator { public static void main(String[] args ) {
+  int y, x;
+  x =1;
+ System.out.println("x=" +x);
     }
 }
