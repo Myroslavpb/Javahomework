@@ -1,6 +1,8 @@
 package com.pb.Nikitiuk.HW3;
 
+import java.util.Arrays;
 import java.util.Scanner;
+
 
 public class Array {
 
@@ -29,6 +31,20 @@ public class Array {
             System.out.println("Positive elements: " + positive);
         System.out.println();
 
-
+        boolean isSorted = false;
+        int buf;
+        while(!isSorted) {
+            isSorted = true;
+        for (int i = 0; i < 10 - 1; i++){
+            if (array [i]>array[i+1])
+            {
+                isSorted = false;
+                buf = array[i];
+                array[i] = array [i+1];
+                array[i+1] = buf;
+            }
         }
+        }
+System.out.println("Bubble sorted elements" + Arrays.toString(array));
+    }
     }
