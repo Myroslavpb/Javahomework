@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class Calculator { public static void main(String[] args ) {
   String sign;
-  int y, x;
+  float y, x;
+
 
   Scanner scan = new Scanner(System.in);
     System.out.println("Введіть число і натисніть enter ");
@@ -15,7 +16,7 @@ public class Calculator { public static void main(String[] args ) {
     System.out.println("Введіть число і натисніть enter ");
     y= scan.nextInt();
 
-
+  float z = x/y;
 switch (sign) {
   case "+" :
       System.out.println(" =" + (x +y));
@@ -30,9 +31,7 @@ switch (sign) {
     if (y==0)
       System.out.println("Universe has been destroyed downloading  last save");
     else
-    System.out.println("=" + (x/y));
-
-
+    System.out.println("=" + z);
     break;
 }
   }
