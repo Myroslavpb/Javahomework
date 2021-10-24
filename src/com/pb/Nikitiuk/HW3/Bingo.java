@@ -23,7 +23,7 @@ public class Bingo  {public static void main(String[] args ){
         if (counter < 2) {
             if (x >= 0 & x <= 100) {
                 if (x == rnd) {
-                    System.out.println("bingo, you guess number in" + counter + "tries");
+                    System.out.println("bingo, you guess number in " + counter + " try");
                     break;
                 }
                 if (x<rnd) {
@@ -44,7 +44,7 @@ public class Bingo  {public static void main(String[] args ){
                   if (x >= 0 & x <= 100 )
                   {
            if (x == rnd) {
-               System.out.println("bingo, you guess number in" + counter + "tries");
+               System.out.println("bingo, you guess number in " + counter + " tries");
            break;
            }
                       if (x<rnd){
@@ -57,8 +57,5 @@ public class Bingo  {public static void main(String[] args ){
            System.out.println("Wrong range, print number from  0 to 100");
     }
     while (x != rnd);
-
-
-
 }
 }
