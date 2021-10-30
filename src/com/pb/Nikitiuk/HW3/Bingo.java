@@ -37,6 +37,7 @@ public class Bingo  {public static void main(String[] args ){
                 }
 
                             } else
+
                System.out.println("Wrong range, print number from  0 to 100");
      }
        else
